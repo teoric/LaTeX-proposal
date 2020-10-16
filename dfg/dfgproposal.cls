@@ -65,7 +65,7 @@
 \fi% ifdeutsch
 \@ifundefined{prop@gen@totalduration}{????}{\prop@gen@totalduration};
 \ifdeutsch
-\@ifundefined{prop@gen@since}{Erstantrag}{Fortsetungsantrag, das Project l\"auft seit
+\@ifundefined{prop@gen@since}{Erstantrag}{Fortsetzungsantrag, das Project l\"auft seit
   \prop@gen@since.}
 \else
 \@ifundefined{prop@gen@since}{initial proposal}{continuation proposal, the project started
@@ -89,7 +89,7 @@
 \section{List of Attachments \deu{(Verzeichnis der Anlagen)}}\fi
 \begin{itemize}
 \@for\@I:=\prop@gen@PIs\do{%
- \item\ifdeutsch Lebenslauf und Publikatinsverzeichnis\else
+ \item\ifdeutsch Lebenslauf und Publikationsverzeichnis\else
  Curriculum Vitae and list of publications for \fi
    \@nameuse{wa@person@\@I @personaltitle}
    \@nameuse{wa@person@\@I @name}
